@@ -1,0 +1,56 @@
+html,body,.main{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+*{
+  font-weight: 300;
+}
+
+.flex{
+  display: flex;
+}
+
+.flexDirectionColumn{
+   flex-direction: column;
+}
+
+.flexJustifyContent{
+    justify-content: space-between;
+}
+
+.flexAlignItems{
+  align-items: flex-end;
+}
+
+.flexWrap{
+    flex-wrap:  wrap;
+}
+
+
+a{
+  color:#333;
+  text-decoration: none;
+  display: block;
+}
+
+.nothing{
+  text-align: center
+}
+
+.paddingBottom{
+  padding-bottom: 2.5rem;
+}
+
+.flexCenter{
+    justify-content: center;
+  align-items: center;
+}
+
+.loading{
+  padding: 30% 0;
+  font-size: 2rem;
+}
+
+
